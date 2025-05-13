@@ -5,6 +5,7 @@ const _config = {
   port: process.env.PORT,
   databaseUrl: process.env.MONGO_CONNECTION_STRING,
   env: process.env.NODE_ENV,
+  jsonWebToken: process.env.JSON_TOKEN,
 };
 
 export const configuration = Object.freeze(_config);
